@@ -7,7 +7,7 @@ for(;userInput<=1 || userInput>=7;) //finchè non inserisco un numero da 1 a 6 r
     userInput = parseInt(prompt("inserisci un numero da 1 a 6"));
 }
 
-const randomNumber= Math.floor((Math.random() * 5)+1);
+const randomNumber= Math.floor((Math.random() * 6)+1);
 console.log(userInput,randomNumber);
 
 
